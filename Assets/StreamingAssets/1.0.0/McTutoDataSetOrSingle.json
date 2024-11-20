@@ -1,0 +1,67 @@
+{
+   "items" : [
+     {
+       "step":0,
+       "text":"세트는 햄버거와 함께\n감자튀김, 음료를\n먹을 수 있어요.",
+       "pos":"-200,-550",
+       "size":"475,305",
+       "wait":"false",
+       "light":"true",
+       "lpos":"-200,0",
+       "mask": 0,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"단품 선택은\n햄버거만 단품으로\n선택하는 거에요.",
+       "pos":"200,-550",
+       "size":"475,305",
+       "wait":"false",
+       "light":"true",
+       "lpos":"200,0",
+       "mask": 1,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"세트로 먹고 싶어요.\n<color=#5C58E8>세트</color>를 주문할거에요.",
+       "pos":"0.0,0.0",
+       "size":"913,344",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"<color=#5C58E8>세트 선택</color>을 눌러주세요!",
+       "pos":"0.0,0.0",
+       "size":"913,344",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"null",
+       "pos":"0.0,0.0",
+       "size":"0,0",
+       "wait":"false",
+       "light":"true",
+       "lpos":"-200,0",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "true",
+       "btnaction" : "false"
+     }
+   ]
+}

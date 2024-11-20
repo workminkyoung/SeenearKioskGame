@@ -1,0 +1,130 @@
+{
+   "items" : [
+         {
+            "step":0,
+            "text":"자! 지금  부터 맥도날드에서\n<color=#5C58E8>키오스크</color>로 주문을 해볼거에요.",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"false",
+           "mask": 999,
+            "next" : "false",
+            "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"차근차근 배워볼거니까\n겁먹지 마세요!",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"false",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"시작하기 앞서, 이 버튼은 저희 어플에만 있는 버튼이에요!",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"true",
+           "lpos":"-479,801",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"버튼을 한번 눌러볼까요?",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"true",
+            "light":"true",
+           "lpos":"-479,801",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "true",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"다시 학습 화면으로\n돌아갈 수 있어요",
+            "pos":"240,600",
+            "size":"417,304",
+            "wait":"false",
+            "light":"true",
+           "lpos":"-300,612",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"처음부터 다시\n학습할 수 있어요",
+            "pos":"240,375",
+            "size":"417,304",
+            "wait":"false",
+            "light":"true",
+           "lpos":"-300,396",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"학습을 종료하고\n나갈 수 있어요",
+            "pos":"240,170",
+            "size":"417,304",
+            "wait":"false",
+            "light":"true",
+           "lpos":"-300,178",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "true"
+         },
+         {
+            "step":0,
+            "text":"자, 이제 본격적으로 시작할게요!",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"false",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"주문을 처음 시작하려면\n<color=#5C58E8>'주문하기'</color>를 눌러야겠죠?",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"false",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"null",
+            "pos":"0.0,0.0",
+            "size":"0,0",
+            "wait":"false",
+            "light":"true",
+           "lpos":"-215,-414",
+           "mask": 999,
+           "next" : "true",
+           "directaction" : "true",
+           "btnaction" : "false"
+         }
+   ]
+}

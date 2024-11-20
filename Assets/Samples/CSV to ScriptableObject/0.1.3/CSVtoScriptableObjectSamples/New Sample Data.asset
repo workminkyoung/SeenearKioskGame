@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4767642917249920448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2521797419b47264789f6b9dfe21c781, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  IndexInt: 4
+  NameString: "\uC815\uC790\uCC28"
+  LengthFloat: 1
+  RandomVector3: {x: 0.1, y: -0.5, z: 0.1}
+  RandomVector2: {x: 0, y: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a81082d080b1684992699af31259c58, type: 3}
+  m_Name: New Sample Data
+  m_EditorClassIdentifier: 
+  lastUpdated: 
+  rowList:
+  - {fileID: 1030604296058914026}
+  - {fileID: 1506541899014484470}
+  - {fileID: 3560626688137239888}
+  - {fileID: 8943974098749679497}
+  - {fileID: -4767642917249920448}
+--- !u!114 &1030604296058914026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2521797419b47264789f6b9dfe21c781, type: 3}
+  m_Name: 0
+  m_EditorClassIdentifier: 
+  IndexInt: 0
+  NameString: "\uAE40\uAC00\uB098"
+  LengthFloat: 150.5
+  RandomVector3: {x: 1, y: 2, z: 3}
+  RandomVector2: {x: 1.1, y: 1.2}
+--- !u!114 &1506541899014484470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2521797419b47264789f6b9dfe21c781, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  IndexInt: 1
+  NameString: "\uC774\uB2E4\uB77C"
+  LengthFloat: 180.35
+  RandomVector3: {x: 1, y: 1, z: 1}
+  RandomVector2: {x: -5, y: 6}
+--- !u!114 &3560626688137239888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2521797419b47264789f6b9dfe21c781, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  IndexInt: 2
+  NameString: "\uBC15\u99AC\uBC14"
+  LengthFloat: -160.12344
+  RandomVector3: {x: 2, y: 3, z: -4}
+  RandomVector2: {x: 1000, y: 5000}
+--- !u!114 &8943974098749679497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2521797419b47264789f6b9dfe21c781, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  IndexInt: 3
+  NameString: SaAh Choi
+  LengthFloat: 0.09
+  RandomVector3: {x: 0, y: 1, z: 0}
+  RandomVector2: {x: 24, y: 25}

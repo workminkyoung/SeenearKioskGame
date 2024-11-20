@@ -1,0 +1,41 @@
+{
+   "items" : [
+         {
+            "step":0,
+            "text":"<color=#5C58E8>매장</color>에서 먹을지<color=#5C58E8>포장</color>해서 먹을지\n골라볼거에요!",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"false",
+           "mask": 999,
+            "next" : "false",
+            "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"포장해서 집에 가져갈거에요,\n<color=#5C58E8>테이크 아웃</color>을 눌러봅시다!",
+            "pos":"0.0,0.0",
+            "size":"913,344",
+            "wait":"false",
+            "light":"false",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "false",
+           "btnaction" : "false"
+         },
+         {
+            "step":0,
+            "text":"null",
+            "pos":"0.0,0.0",
+            "size":"0,0",
+            "wait":"false",
+            "light":"true",
+           "lpos":"200,121",
+           "mask": 999,
+           "next" : "false",
+           "directaction" : "true",
+           "btnaction" : "false"
+         }
+   ]
+}

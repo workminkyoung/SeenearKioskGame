@@ -1,0 +1,141 @@
+{
+   "items" : [
+     {
+       "step":0,
+       "text":"이번에는 <color=#5C58E8>일반세트</color>와 <color=#5C58E8>라지세트</color>를\n선택해볼거에요.",
+       "pos":"0,0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"모두 햄버거의 크기는 같지만\n<color=#5C58E8>감자튀김과 음료의 사이즈</color>가 달라요!",
+       "pos":"0,0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"라지 세트는\n감자튀김과 음료가\n더 큰거에요.",
+       "pos":"180,-235",
+       "size":"475,305",
+       "wait":"false",
+       "light":"true",
+       "lpos":"290,276",
+       "mask": 0,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"그럼, <color=#5C58E8>일반세트</color>를 선택해볼까요?",
+       "pos":"0,0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"null",
+       "pos":"0.0,0.0",
+       "size":"0,0",
+       "wait":"false",
+       "light":"true",
+       "lpos":"0,240",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "true",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"<color=#5C58E8>세트 메뉴의 사이드</color>도 선택할 수 있어요!",
+       "pos":"0.0,0.0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"<color=#5C58E8>감자튀김</color>을 선택해볼까요?",
+       "pos":"0.0,0.0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"null",
+       "pos":"0.0,0.0",
+       "size":"0,0",
+       "wait":"false",
+       "light":"true",
+       "lpos":"290,213",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "true",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"이번엔 <color=#5C58E8>음료</color>를 선택해야 돼요.",
+       "pos":"0.0,0.0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"<color=#5C58E8>코카콜라 미디엄</color>을 선택해 봅시다!",
+       "pos":"0.0,0.0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"null",
+       "pos":"0.0,0.0",
+       "size":"0,0",
+       "wait":"false",
+       "light":"true",
+       "lpos":"488,313",
+       "ltype":"scroll",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "true",
+       "btnaction" : "false"
+     }
+   ]
+}

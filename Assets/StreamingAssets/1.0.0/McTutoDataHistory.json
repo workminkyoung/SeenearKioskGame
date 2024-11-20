@@ -1,0 +1,41 @@
+{
+   "items" : [
+     {
+       "step":0,
+       "text":"내가 주문을 맞게 했는지\n확인을 해볼까요?",
+       "pos":"0,0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"맞다면 얼른 <color=#5C58E8>주문완료</color>를 눌러봅시다!\n배가 고파요!",
+       "pos":"0,0",
+       "size":"914,345",
+       "wait":"false",
+       "light":"false",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "false",
+       "btnaction" : "false"
+     },
+     {
+       "step":0,
+       "text":"null",
+       "pos":"0.0,0.0",
+       "size":"0,0",
+       "wait":"false",
+       "light":"true",
+       "lpos":"165,-680",
+       "mask": 999,
+       "next" : "false",
+       "directaction" : "true",
+       "btnaction" : "false"
+     }
+   ]
+}

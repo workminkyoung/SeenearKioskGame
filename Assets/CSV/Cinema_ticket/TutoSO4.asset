@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72be181868deb448599e49928ba9870f, type: 3}
+  m_Name: TutoSO4
+  m_EditorClassIdentifier: 
+  _index: 4
+  _textNarration: "\uC774\uC81C \uC601\uD654\uB97C \uBCFC \uC790\uB9AC\uB97C \uACE8\uB77C\uBCFC\uAE4C\uC694?\r\n<color=#EF5645>D3,
+    D4</color>\uB97C \uC120\uD0DD\uD560\uAC8C\uC694."
+  _highlighting: {fileID: 0}
+  _pointIndex: 4
+  _pointSize: 2
+  _textAlert: "X\uD45C\uC2DC \uB418\uC5B4\uC788\uB294 \uC88C\uC11D\uC740 \uC774\uBBF8
+    \uC608\uC57D\uC774 \uB41C \uC88C\uC11D\uC774\uC5D0\uC694. \uC54C\uB9DE\uC740
+    \uC88C\uC11D\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
