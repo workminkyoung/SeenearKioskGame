@@ -8,17 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shield 1
-  m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
+  m_Shader: {fileID: 4800000, guid: a53f4bb29f3644b43b5075c6dcfecb32, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BLURISHD_ON
+  - CLIPPING_ON
   - FADE_ON
-  - FLICKER_ON
   - GLOWTEX_ON
-  - GLOW_ON
-  - PIXELATE_ON
-  - TEXTURESCROLL_ON
+  - GRADIENT2COL_ON
+  - GRADIENT_ON
   - WAVEUV_ON
   m_InvalidKeywords:
   - ETC1_EXTERNAL_ALPHA
@@ -27,7 +26,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -55,16 +54,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: dbaa905cec0d2b944b5d1ebdbc3ceb1e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: c129995f03ce9f041813c0cbb0119751, type: 3}
+        m_Scale: {x: 0.964, y: 0}
+        m_Offset: {x: -0.82, y: 0}
     - _GlowTex:
         m_Texture: {fileID: 2800000, guid: 81687001a52d8024fb3706ba7619ad4b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2f5c9cbfde2d0384bb53189b0d0f06d8, type: 3}
-        m_Scale: {x: 1.5, y: 1.5}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineDistortTex:
         m_Texture: {fileID: 2800000, guid: 7aad8c583ef292e48b06af0d1f2fab97, type: 3}
@@ -75,7 +78,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OverlayTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 677cca399782dea41aedc1d292ecb67d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShineMask:
@@ -87,10 +90,10 @@ Material:
     - _Alpha: 1
     - _AlphaCutoffValue: 0.25
     - _AlphaOutlineBlend: 1
-    - _AlphaOutlineGlow: 5
+    - _AlphaOutlineGlow: 16.8
     - _AlphaOutlineMinAlpha: 0
     - _AlphaOutlinePower: 1
-    - _AlphaRoundThreshold: 0.5
+    - _AlphaRoundThreshold: 0.279
     - _BillboardY: 0
     - _BlurHD: 1
     - _BlurIntensity: 13.7
@@ -105,6 +108,7 @@ Material:
     - _ColorChangeTolerance: 0.25
     - _ColorChangeTolerance2: 0.25
     - _ColorChangeTolerance3: 0.25
+    - _ColorMask: 15
     - _ColorRampBlend: 1
     - _ColorRampLuminosity: 0
     - _ColorRampOutline: 0
@@ -114,14 +118,14 @@ Material:
     - _ColorSwapRedLuminosity: 0.5
     - _Contrast: 1
     - _CullingOption: 0
-    - _DistortAmount: 0.5
+    - _DistortAmount: 1
     - _DistortTexXSpeed: 5
     - _DistortTexYSpeed: 5
-    - _EditorDrawers: 6
-    - _FadeAmount: -0.1
-    - _FadeBurnGlow: 17
-    - _FadeBurnTransition: 0.095
-    - _FadeBurnWidth: 0
+    - _EditorDrawers: 7
+    - _FadeAmount: 0.917
+    - _FadeBurnGlow: 1
+    - _FadeBurnTransition: 0.017
+    - _FadeBurnWidth: 0.138
     - _FishEyeUvAmount: 0.35
     - _FlickerAlpha: 0.888
     - _FlickerFreq: 0.2
@@ -131,12 +135,12 @@ Material:
     - _GhostTransparency: 0
     - _GlitchAmount: 3.4
     - _GlitchSize: 1
-    - _Glow: 10
+    - _Glow: 56
     - _GlowGlobal: 1
     - _GlowTexUsed: 1
     - _GradBlend: 1
     - _GradBoostX: 1.2
-    - _GradBoostY: 1.2
+    - _GradBoostY: 2.91
     - _GradIsRadial: 0
     - _GrassManualAnim: 1
     - _GrassManualToggle: 0
@@ -176,6 +180,7 @@ Material:
     - _MyDstMode: 10
     - _MySrcMode: 5
     - _NegativeAmount: 1
+    - _NormalStrength: 1
     - _OffsetUvX: 0
     - _OffsetUvY: 0
     - _OnlyInnerOutline: 0
@@ -221,6 +226,11 @@ Material:
     - _ShineLocation: 0.5
     - _ShineRotate: 0
     - _ShineWidth: 0.1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _TextureScrollXSpeed: 0.24
     - _TextureScrollYSpeed: 0.31
     - _TwistUvAmount: 0.46
@@ -230,17 +240,17 @@ Material:
     - _WarpScale: 0.5
     - _WarpSpeed: 8
     - _WarpStrength: 0.025
-    - _WaveAmount: 15
-    - _WaveSpeed: 24.7
-    - _WaveStrength: 7.5
-    - _WaveX: 0
-    - _WaveY: 0.5
+    - _WaveAmount: 10.9
+    - _WaveSpeed: 5.4
+    - _WaveStrength: 17.1
+    - _WaveX: 0.738
+    - _WaveY: 1
     - _ZTestMode: 4
     - _ZWrite: 0
     - _ZoomUvAmount: 0.5
     m_Colors:
     - _AlphaOutlineColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 0.9805136, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorChangeNewCol: {r: 1, g: 1, b: 0, a: 1}
     - _ColorChangeNewCol2: {r: 1, g: 1, b: 0, a: 1}
     - _ColorChangeNewCol3: {r: 1, g: 1, b: 0, a: 1}
@@ -250,11 +260,11 @@ Material:
     - _ColorSwapBlue: {r: 1, g: 1, b: 1, a: 1}
     - _ColorSwapGreen: {r: 1, g: 1, b: 1, a: 1}
     - _ColorSwapRed: {r: 1, g: 1, b: 1, a: 1}
-    - _FadeBurnColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FadeBurnColor: {r: 1, g: 1, b: 1, a: 0}
     - _GlowColor: {r: 0, g: 0.98090506, b: 1, a: 1}
-    - _GradBotLeftCol: {r: 0, g: 0, b: 1, a: 1}
+    - _GradBotLeftCol: {r: 1, g: 0.5372549, b: 0.20784314, a: 1}
     - _GradBotRightCol: {r: 0, g: 0, b: 1, a: 1}
-    - _GradTopLeftCol: {r: 1, g: 0, b: 0, a: 1}
+    - _GradTopLeftCol: {r: 1, g: 0.83137256, b: 0.28235295, a: 1}
     - _GradTopRightCol: {r: 1, g: 0, b: 0, a: 1}
     - _GreyscaleTintColor: {r: 1, g: 1, b: 1, a: 1}
     - _HitEffectColor: {r: 1, g: 1, b: 1, a: 1}

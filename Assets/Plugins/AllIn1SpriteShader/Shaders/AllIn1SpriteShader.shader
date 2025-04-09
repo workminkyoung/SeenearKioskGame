@@ -251,6 +251,12 @@
 		Cull [_CullingOption]
 		ZWrite [_ZWrite]
 		ZTest [_ZTestMode]
+		
+		// Stencil {
+  //           Ref 1       // 마스크가 설정한 값
+  //           Comp Equal  // 마스크와 같은 값일 때만 렌더링
+  //           Pass Keep
+  //       }
 
         Pass
         {
