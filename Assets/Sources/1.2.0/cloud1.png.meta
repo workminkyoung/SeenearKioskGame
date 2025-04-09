@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cdb2dbf956e9e194c96334ecd6e1db26
+guid: 4785a543be3010346ad3a77fa5c44637
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7421438677693804467
-    second: Car1_0
+      213: -5457230233444185960
+    second: cloud1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Car1_0
+      name: cloud1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 721
-        height: 370
+        width: 295
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bfa84a282f3ef660800000000000000
-      internalID: 7421438677693804467
+      spriteID: 898890e24060444b0800000000000000
+      internalID: -5457230233444185960
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Car1_0: 7421438677693804467
+      cloud1_0: -5457230233444185960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
