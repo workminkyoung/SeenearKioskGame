@@ -1,3 +1,4 @@
+using LottiePlugin.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,6 +8,8 @@ using UnityEngine.UI;
 
 public class Car : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    public Action OnGameEnd;
+
     [SerializeField]
     private List<Sprite> _sprites;
     [SerializeField]
@@ -19,25 +22,37 @@ public class Car : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private RectTransform _canvas;
     [SerializeField]
     private float _moveDuration;
+    [SerializeField]
+    private AnimatedImage _success;
+    [SerializeField]
+    private AnimatedImage _warning;
+    [SerializeField]
+    private int _maxCar = 3;
+
+    public ProgressBar _progressBar;
 
     private float _posY;
+    [SerializeField]
     private bool _isRefueling = false;
+    private int _curIndex = 0;
 
     public void Init()
     {
         _carRect = GetComponent<RectTransform>();
         _image.sprite = _sprites[0];
         _posY = _carRect.anchoredPosition.y;
+
+        _progressBar.OnEnd += StartMoveOut;
+        _warning.RawImage.enabled = false;
     }
 
     public void CarSpawn(int carType)
     {
         _image.sprite = _sprites[carType];
-        _image.SetNativeSize();
+        //_image.SetNativeSize();
         _carRect.anchoredPosition = new Vector2(540 + _image.rectTransform.sizeDelta.x/2, _posY);
         _guide.SetActive(false); 
         _isRefueling = false;
-
     }
 
     public void StartMoveIn()
@@ -46,14 +61,31 @@ public class Car : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         {
             _guide.SetActive(true); 
             _isRefueling = true;
+            _progressBar.Pause();
+            _progressBar.StartFill();
         }));
     }
 
     public void StartMoveOut()
     {
+        _isRefueling = false;
+        _guide.SetActive(false);
+        _success.Play();
+
         StartCoroutine(MoveTo(_carRect, new Vector2(-540 - _image.rectTransform.sizeDelta.x / 2, _posY), _moveDuration, () =>
         {
-            _isRefueling = false;
+            if (_curIndex < _maxCar - 1)
+            {
+                _curIndex++;
+                CarSpawn(_curIndex);
+                StartMoveIn();
+                _progressBar.ResetProgress();
+            }
+            else
+            {
+                OnGameEnd?.Invoke();
+                // end Game
+            }
         }));
     }
 
@@ -78,6 +110,10 @@ public class Car : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (!_isRefueling) return;
         _guide.SetActive(false);
+        _progressBar.Resume();
+        _warning.Stop();
+        _warning.RawImage.enabled = false;
+
     }
 
     // UI 요소에서 손을 뗄 때 호출됨
@@ -85,5 +121,8 @@ public class Car : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (!_isRefueling) return;
         _guide.SetActive(true);
+        _progressBar.Pause();
+        _warning.Play();
+        _warning.RawImage.enabled = true;
     }
 }
