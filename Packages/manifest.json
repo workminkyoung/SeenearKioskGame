@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.boxqkrtm.ide.cursor": "https://github.com/boxqkrtm/com.unity.ide.cursor.git",
     "com.gindemit.rlottie": "https://github.com/gindemit/unity-rlottie.git?path=/unity/RLottieUnity/Assets/LottiePlugin/#0.2.2",
     "com.kimsongd.unity-csv-to-scriptableobject": "https://github.com/DylanHayunSong/UnityCSVtoScriptableObject.git",
     "com.unity.2d.sprite": "1.0.0",
