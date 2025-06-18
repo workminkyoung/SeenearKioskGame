@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using System.Collections.Generic;
+using System.Collections;
 
 public class LoadingGame : MonoBehaviour
 {
@@ -40,6 +41,26 @@ public class LoadingGame : MonoBehaviour
     private void StartGame(){
         for(int i = 0; i < _crops.Count; i++){
             _crops[i].SpawnCrop(_cropType);
+        }
+        StartCoroutine(SpawnCrop());
+    }
+
+    private IEnumerator SpawnCrop()
+    {
+        float gameTime = 180f; // 3분
+        float elapsedTime = 0f;
+
+        while (elapsedTime < gameTime)
+        {
+            // 랜덤한 시간 간격 (0.5초 ~ 2초)
+            float waitTime = Random.Range(0.5f, 2f);
+            yield return new WaitForSeconds(waitTime);
+
+            // 랜덤한 작물 선택
+            int randomCropIndex = Random.Range(0, _crops.Count);
+            _crops[randomCropIndex].CropGrowth();
+
+            elapsedTime += waitTime;
         }
     }
 }
